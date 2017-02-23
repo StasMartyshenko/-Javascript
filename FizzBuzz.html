@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var number3 = "Fizz"; 
+var number5 = "Buzz";
+var number6 = "FizzBuzz";
+for (var number = 1; number <= 100; ++number) {
+	if (number % 1 == 0 && number % 3 !== 0 && number % 5 !== 0)
+	console.log(number);
+    
+	if (number % 3 == 0 && number % 5 !== 0)
+	console.log(number3);
+    
+	if (number % 5 == 0 && number % 3 !== 0)
+	console.log(number5);
+    
+	if (number % 3 == 0 && number % 5 == 0)
+	console.log(number6);
+    }
+    </script>
+</body>
+</html>
